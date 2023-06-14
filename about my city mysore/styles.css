@@ -1,0 +1,65 @@
+html,
+* {
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 10px 0 0 0;
+  height: 60vh;
+  background-image: url(images/lighting.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 0 0 13px black;
+  font-size: x-large;
+}
+
+.container {
+  display: flex;
+  margin: 3rem;
+  padding: 3rem;
+  width: 100vv;
+  gap: 80px;
+}
+
+.img-style {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 1px solid rgb(216, 207, 207);
+}
+
+.img-me {
+  height: 300px;
+  width: 200px;
+  padding: 0 2rem 0 0;
+}
+
+.Place-to-visit {
+  background: #fff;
+  padding: 2rem;
+}
+
+.more-about-mysore {
+  background: #8ca092;
+  padding: 2rem;
+}
+
+#my-card {
+  background: #aadce2;
+  /* width: 500px; */
+  margin: 3rem 20vw;
+  height: 300px;
+}
+.my-name {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.my-details {
+  padding: 3rem 0 0 0;
+}
